@@ -15,16 +15,16 @@ If you are [Anaconda](https://www.anaconda.com/) or other Python environment, yo
 
 ```bash
 python3 run.py -h
-	usage: run.py [-h] [-rt RUNTIME] [-dt DELTAT]
+  usage: run.py [-h] [-rt RUNTIME] [-dt DELTAT]
 
-	Run random spiking neural networks.
+  Run random spiking neural networks.
 
-	optional arguments:
-		-h, --help            show this help message and exit
-		-rt RUNTIME, --runtime RUNTIME
-													Simulation runtime in milliseconds per input.
-		-dt DELTAT, --deltat DELTAT
-													Simulation delta time (dt), resolution.
+  optional arguments:
+    -h, --help            show this help message and exit
+    -rt RUNTIME, --runtime RUNTIME
+                          Simulation runtime in milliseconds per input.
+    -dt DELTAT, --deltat DELTAT
+                          Simulation delta time (dt), resolution.
 ```
 
 For details on the simulation, you can refer to the [paper](https://www.izhikevich.org/publications/spikes.pdf) and the code in `izhinet.py` for the actual implementation.
